@@ -2,7 +2,7 @@ class Board {
   constructor () { //<=== No arguments this is because there is only one object for the board property (it will be the same board fot each game)
     this.rows = 6;
     this.columns = 7;
-    this.space = [];
+    this.space = this.createSpaces();
   }
 
   createSpaces(){
