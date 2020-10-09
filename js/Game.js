@@ -9,5 +9,12 @@ class Game {
     const players = [new Player('Rodrigo', 1, orange, true),new Player('Juan', 2, blue, false //<== but you can just not write anything because the default is false)];
     return players;
   }
+  
+  /*
+   * Gets game ready for play
+  */
+  startGame(){
+
+  }
 
 }
